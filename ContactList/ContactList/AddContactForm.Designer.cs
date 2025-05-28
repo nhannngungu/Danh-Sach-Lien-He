@@ -74,9 +74,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(341, 48);
             label1.Name = "label1";
-            label1.Size = new Size(126, 20);
+            label1.Size = new Size(129, 20);
             label1.TabIndex = 4;
-            label1.Text = "Bo sung thong tin";
+            label1.Text = "Thong tin bo sung";
             // 
             // AddContactForm
             // 
