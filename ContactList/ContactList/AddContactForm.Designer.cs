@@ -33,6 +33,7 @@
             button1 = new Button();
             textBox1 = new TextBox();
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // TextBox
@@ -71,18 +72,26 @@
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(305, 23);
+            label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(129, 20);
-            label1.TabIndex = 4;
-            label1.Text = "Thong tin bo sung";
+            label1.Size = new Size(100, 23);
+            label1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(321, 25);
+            label2.Name = "label2";
+            label2.Size = new Size(129, 20);
+            label2.TabIndex = 4;
+            label2.Text = "Thông tin bổ sung";
             // 
             // AddContactForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(button1);
@@ -101,5 +110,6 @@
         private Button button1;
         private TextBox textBox1;
         private Label label1;
+        private Label label2;
     }
 }
